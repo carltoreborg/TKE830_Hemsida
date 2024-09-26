@@ -9,7 +9,7 @@ export default function Home() {
       </div>
       <Image src="/images/snark.png" 
              alt="IKEA SNARK" 
-             width={500} 
+             width={1000} 
              height={500} />
     </div>
   );
