@@ -13,7 +13,7 @@ const Info = () => {
               <h1 className="mb-9 text-3xl font-bold sm:text-4xl lg:text-3xl xl:text-4xl">
                 IKEA SNARK
               </h1>
-                <div className="mb-9 w-full lg:w-auto">
+                <div className="background-block">
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                 Introducing the IKEA SNARK, a cutting-edge bedroom solution designed to enhance comfort, energy savings, 
                 and sleep quality. Our temperature-controlled smart bed adjusts automatically to your ideal sleep temperature, 
@@ -36,6 +36,11 @@ const Info = () => {
                 </div>
               </div>
             </div>
+            <div className="w-full px-4 lg:w-1/2 flex justify-start lg:justify-start">
+            <div className="background-block">
+              Add your second div content here
+            </div>
+          </div>
           </div>
         </div>
   );

@@ -34,3 +34,12 @@ body {
   font-weight: 900;
   font-size: 8rem;
 }
+
+.background-block{
+  background: rgba(239,226,206, 0.8);
+  color: black;
+  padding: 30px;
+  padding-top: 20px;
+  border-radius: 20px;
+  margin-right: 0px;
+}
