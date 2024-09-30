@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.positionbox {
+  /* Remove position: absolute; */
+}
+
+.element1, .element2, .element3 {
+  /* Remove position: absolute; */
+  margin-bottom: 20px; /* Optional: Add margin to space out the elements */
+}
