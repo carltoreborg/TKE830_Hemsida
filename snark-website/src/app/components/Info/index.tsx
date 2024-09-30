@@ -1,3 +1,4 @@
+import React from 'react';
 
 const Info = () => {
 
@@ -10,9 +11,8 @@ const Info = () => {
           <div className="w-full px-4 lg:w-1/2 flex justify-center lg:justify-end">
           </div>
             <div className="max-w-[470px]">
-              <h1 className="mb-9 text-3xl font-bold sm:text-4xl lg:text-3xl xl:text-4xl">
-                IKEA SNARK
-              </h1>
+            <img src="./images/snark.png" alt="snark-logo" className="mb-9 flex flex-col items-center justify-center" /> {/* Added image here */}
+
                 <div className="background-block">
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                 Introducing the IKEA SNARK, a cutting-edge bedroom solution designed to enhance comfort, energy savings, 
@@ -38,7 +38,7 @@ const Info = () => {
             </div>
             <div className="w-full px-4 lg:w-1/2 flex justify-start lg:justify-start">
             <div className="background-block">
-              Add your second div content here
+              <h2 className="text-3xl font-bold sm:text-4xl lg:text-3xl xl:text-4xl mb-4">Project DEMO</h2>
             </div>
           </div>
           </div>
