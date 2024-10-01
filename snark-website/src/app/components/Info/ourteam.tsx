@@ -13,7 +13,7 @@ const teamMembers: TeamMember[] = [
     { name: 'Casper Hansen', image: '/images/jawadre.png', contact: 'cool@mail.com' },
     { name: 'Jennifer Hallberg', image: 'path/to/bob.jpg', contact: ''  },
     { name: 'Alexander Gilabert', image: 'path/to/charlie.jpg', contact: ''  },
-    { name: 'Hanna Forsling', image: 'path/to/david.jpg', contact: ''  },
+    { name: 'Hanna Forsling', image: '/images/humlan.jpg', contact: 'h.forsling@gmail.com'  },
     { name: 'Simon Westlin Green', image: '/images/casino.png', contact: ''  },
     { name: 'Carl Toreborg', image: "/images/watt.jpg", contact: ''  },
 ];

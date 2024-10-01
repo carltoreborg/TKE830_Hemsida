@@ -17,7 +17,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Noto Sans, sans-serif;
 }
 
 @layer utilities {
@@ -30,7 +30,7 @@ body {
   background-color: var(--background);
   /*color: var(--foreground);*/
   color: aquamarine;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Noto Sans, sans-serif;
   font-weight: 900;
   font-size: 8rem;
 }
@@ -43,3 +43,4 @@ body {
   border-radius: 20px;
   margin-right: 0px;
 }
+
