@@ -27,7 +27,7 @@ export default function Home() {
         </div>
 
         <div className="positionbox element2 z-10 mb-8 flex flex-col items-center justify-center">
-          <h1 className="text-6xl text-white flex flex-col items-center justify-center mb-8 mt-20">Final Capstone PPT Presentation</h1>
+          <h1 className="text-6xl text-white flex flex-col items-center justify-center mb-8 mt-20">Sprint 2 - Second Pitch Presentation</h1>
           <SlideShow />
         </div>
 
