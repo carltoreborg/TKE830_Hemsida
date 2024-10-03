@@ -1,5 +1,4 @@
 import React from "react";
-import ReactGoogleSlides from "react-google-slides";
 
 const SlideShow = () => {
   return (
