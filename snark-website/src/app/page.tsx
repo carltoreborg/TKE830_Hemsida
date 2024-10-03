@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className="positionbox element1 z-10 mb-20">
           
-          <YoutubeEmbed embedId="_6z3CIG_tSg?si=W7HbwlmUDJVsxF_n" />
+          {/*<YoutubeEmbed embedId="_6z3CIG_tSg?si=W7HbwlmUDJVsxF_n" />*/}
         </div>
 
         <div className="positionbox element2 z-10 mb-8 flex flex-col items-center justify-center">
