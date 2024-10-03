@@ -1,10 +1,8 @@
 FROM node:20.8.0-alpine AS deps
-LABEL maintainer="digIT <digit@chalmers.it>"
 
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY package.json yarn.lock* package-lock.json* pnpm-lock.yaml* ./
-RUN yarn global add pnpm && pnpm i --frozen-lockfile
 
 ##########################
 #      BUILD STAGE       #
@@ -13,9 +11,9 @@ FROM node:20.8.0-alpine AS builder
 
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
+RUN npm install --force
 COPY . .
-RUN yarn prisma generate
-RUN yarn build
+RUN npm build
 
 ##########################
 #    PRODUCTION STAGE    #
