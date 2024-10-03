@@ -17,13 +17,21 @@ export default function Home() {
 
       <div className="flex flex-col items-center">
 
-      <div className="positionbox element1 z-10 mb-20">
+      <div className="positionbox element1 z-10 mb-10">
       <Header />
+      </div>
+
+      <div className="flex flex-col items-center z-10">
+      <a href="https://snark-app.chalmers.it/" target="_blank" rel="noopener noreferrer flex flex-col items-center justify-center">
+            <button className="mt-8 px-20 py-8 bg-blue-500 text-white font-bold rounded hover:bg-blue-700 flex flex-col items-center justify-center">
+              Go to demo
+            </button>
+          </a>
       </div>
 
         <div className="positionbox element1 z-10 mb-20">
           
-          {/*<YoutubeEmbed embedId="_6z3CIG_tSg?si=W7HbwlmUDJVsxF_n" />*/}
+          {/*<YoutubeEmbed embedId="_6z3CIG_tSg?si=W7HbwlmUDJVsxF_n"> */}
         </div>
 
         <div className="positionbox element2 z-10 mb-8 flex flex-col items-center justify-center">
