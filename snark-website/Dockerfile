@@ -34,10 +34,6 @@ COPY --from=builder /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 
-# Copy logger configs
-COPY --chown=nextjs:nodejs next-logger.config.js /app/
-COPY --chown=nextjs:nodejs pino-pretty-transport.js /app/
-
 # Create media directory
 RUN mkdir -p $MEDIA_PATH
 RUN chown -R nextjs:nodejs $MEDIA_PATH
