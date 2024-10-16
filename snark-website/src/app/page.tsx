@@ -28,7 +28,7 @@ export default function Home() {
             </h2>
             <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
             The smart mattress- and blanket- range with personalized temperature settings. By using modern technology, we have created a product that will revolutionize the way you sleep. <br/>
-            <strong>Click the button to the right to test the demo version of our app.</strong>
+            <strong className="rainbow-text">Click the button to the right to test the demo version of our app.</strong>
             </p>
           </div>
 
