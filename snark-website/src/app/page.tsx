@@ -4,6 +4,8 @@ import SlideShow from "./components/Info/SlideShow";
 import Footer from "./components/Info/footer";
 import Header from "./components/Header";
 import "./homepage.css";
+import ReactTooltip from 'react-tooltip';
+
 
 export default function Home() {
   return (
@@ -19,13 +21,22 @@ export default function Home() {
       <Header />
       </div>
 
-      <div className="flex flex-col items-center z-10">
+      <div className="flex flex-row items-center z-10 justify-center">
+      <div className="background-block-top">
+            <h2 className="text-3xl font-bold sm:text-4xl lg:text-3xl xl:text-4xl mb-4">
+            Introducing the IKEA SNARK
+            </h2>
+            <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+            The smart mattress- and blanket- range with personalized temperature settings. By using modern technology, we have created a product that will revolutionize the way you sleep. <br/>
+            <strong>Click the button to the right to test the demo version of our app.</strong>
+            </p>
+          </div>
+
       <a href="https://snark-app.chalmers.it/" target="_blank" rel="noopener noreferrer flex flex-col items-center justify-center">
-            <button className="mt-8 px-20 py-8 bg-blue-500 text-white font-bold rounded hover:bg-blue-700 flex flex-col items-center justify-center">
-              Go to demo
-            </button>
+          <img src="./images/hand_with_app.png" alt="hand-with-app" className="h-128 w-128 hover:brightness-50" />
           </a>
-      </div>
+        
+          </div>
 
         <div className="positionbox element1 z-10 mb-20">
           

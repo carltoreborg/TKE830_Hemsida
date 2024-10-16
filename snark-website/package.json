@@ -16,7 +16,8 @@
     "react": "^18",
     "react-dom": "^18",
     "react-google-slides": "^4.0.0",
-    "react-modal-video": "^2.0.2"
+    "react-modal-video": "^2.0.2",
+    "react-tooltip": "^5.28.0"
   },
   "devDependencies": {
     "@types/node": "^20",
