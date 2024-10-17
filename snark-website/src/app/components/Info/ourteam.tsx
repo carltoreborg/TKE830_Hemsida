@@ -48,7 +48,7 @@ const OurTeam: React.FC = () => {
         {teamMembers.map((member, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Card
-              className="rounded-[12px] bg-[#EFE2CE] hover:bg-[#EFE2DE]"
+              className="rounded-[12px] bg-[#EFE2DE] hover:bg-[#EFE2CE]"
               onClick={() => handleClickOpen(member)}
             >
               <CardContent className="flex flex-col items-center">
