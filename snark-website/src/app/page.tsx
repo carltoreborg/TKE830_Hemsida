@@ -4,7 +4,6 @@ import SlideShow from "./components/Info/SlideShow";
 import Footer from "./components/Info/footer";
 import Header from "./components/Header";
 import "./homepage.css";
-import ReactTooltip from 'react-tooltip';
 
 
 export default function Home() {
