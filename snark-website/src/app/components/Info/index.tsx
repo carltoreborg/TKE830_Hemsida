@@ -18,7 +18,7 @@ troubles due to uncomfortable temperature fluctuations throughout the night. Our
 warm weather. <br /> <br />
 
 With these insights, we designed a solution that puts temperature control at your fingertips, enabling users to personalize 
-their bed's settings to achieve the perfect sleeping environment. By understanding the unique demands of users in the Americas, 
+their bed&#39;s settings to achieve the perfect sleeping environment. By understanding the unique demands of users in the Americas, 
 where climates vary widely, our product ensures a tailored sleep experience that addresses these concerns. Our commitment to listening 
 to our customers has allowed us to create a product that significantly improves sleep quality by aligning with real-life needs and preferences.
 
@@ -57,11 +57,11 @@ to our customers has allowed us to create a product that significantly improves 
             This targeted approach reduces reliance on energy-intensive air conditioning and heating, leading to lower overall energy usage. <br /> <br />
 
             The use of WiFi presence sensing also enhances sustainability by automatically adjusting settings when the bed is not in use, 
-            ensuring that energy isn't wasted. Additionally, the product is built to be compatible with wearable data to optimize comfort 
+            ensuring that energy isn&#39;t wasted. Additionally, the product is built to be compatible with wearable data to optimize comfort 
             without unnecessary power consumption, further reducing environmental impact. <br /> <br />
 
             Our focus on durable materials and efficient use of data and technology ensures that the bed contributes to a sustainable future, 
-            offering users comfort without compromising the planet's resources.
+            offering users comfort without compromising the planet&#39;s resources.
             </p>
           </div>
         </div>
