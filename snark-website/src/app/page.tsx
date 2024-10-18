@@ -27,7 +27,9 @@ export default function Home() {
             Introducing the IKEA SNARK
             </h2>
             <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-            The smart mattress- and blanket- range with personalized temperature settings. By using modern technology, we have created a product that will revolutionize the way you sleep. <br/>
+            The smart mattress- and blanket- range with personalized temperature settings. By using modern technology, 
+            we have created a product that will revolutionize the way you sleep. Utilizing smart phones and technologies the product aims
+            to be IKEAs next step in the Smart Home system. <br/>
             <strong className="rainbow-text">Click the button to the right to test the demo version of our app.</strong>
             </p>
         </div>
@@ -39,9 +41,6 @@ export default function Home() {
       </div>
 
       <div className="positionbox element1 z-10 mb-20">
-          <h1 className="text-6xl text-white flex flex-col items-center justify-center mb-8 mt-20">
-            Products
-          </h1>
           <div className="flex flex-row items-center justify-center">
           <img src="./images/Snark-product.png" alt="snark-product" className="h-150 w-150" />
 
@@ -50,7 +49,8 @@ export default function Home() {
             Introducing the IKEA SNARK
             </h2>
             <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-            The smart mattress- and blanket- range with personalized temperature settings <br/> <br/>
+            The smart mattress- and blanket- range with personalized temperature settings. The goal is to create an ecosystem where
+            the product range suits a wider range of customers. <br/> <br/>
 
             <strong>Range of products with the same technology:</strong><br/>
 
