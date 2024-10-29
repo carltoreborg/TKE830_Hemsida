@@ -3,8 +3,8 @@ import OurTeam from "./components/Info/ourteam";
 import SlideShow from "./components/Info/SlideShow";
 import Footer from "./components/Info/footer";
 import Header from "./components/Header";
+import Problem from "./problem";
 import "./homepage.css";
-
 
 export default function Home() {
 
@@ -41,6 +41,13 @@ export default function Home() {
       </div>
 
       <div className="positionbox element1 z-10 mb-20">
+        <h1 className="text-6xl text-white flex flex-col items-center justify-center mb-8 mt-20">
+          The Problem
+        </h1>
+        <Problem />
+      </div>
+
+      <div className="positionbox element1 z-10 mb-40 mt-40">
           <div className="flex flex-row items-center justify-center">
           <img src="./images/Snark-product.png" alt="snark-product" className="h-150 w-150" />
 
@@ -62,9 +69,9 @@ export default function Home() {
         </div>
           </div>
        </div>
+        
 
         <div className="positionbox element1 z-10 mb-20">
-          
           {/*<YoutubeEmbed embedId="_6z3CIG_tSg?si=W7HbwlmUDJVsxF_n"> */}
         </div>
 
