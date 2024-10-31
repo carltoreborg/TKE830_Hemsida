@@ -95,6 +95,25 @@ export default function Home() {
           <Info />
         </div>
 
+        <div className="positionbox element3 z-10 mb-8 flex flex-col items-center justify-center">
+          <div className="w-full px-4 lg:w-1/3 flex items-start justify-center lg:justify-end">
+            <div className="background-block">
+              <h2 className="text-3xl font-bold sm:text-4xl lg:text-3xl xl:text-4xl mb-4">
+                Use of generative AI
+              </h2>
+
+              <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                We didn&#39;t use generative AI beyond GitHub Copilot, as it met
+                our needs for code suggestions. More advanced AI tools
+                weren&#39;t necessary for the scope of our project. If we were
+                to expand the statistics and data analysis part of the project,
+                we would consider using more advanced AI tools, such as
+                predictive models.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="positionbox element2 z-10 mb-8 flex flex-col items-center justify-center">
           <SlideShow />
         </div>
