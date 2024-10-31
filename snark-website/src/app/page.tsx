@@ -96,7 +96,7 @@ export default function Home() {
         </div>
 
         <div className="positionbox element3 z-10 mb-8 flex flex-col items-center justify-center">
-          <div className="w-full px-4 lg:w-1/3 flex items-start justify-center lg:justify-end">
+          <div className="w-full px-8 lg:w-1/3 flex items-start justify-center lg:justify-end">
             <div className="background-block">
               <h2 className="text-3xl font-bold sm:text-4xl lg:text-3xl xl:text-4xl mb-4">
                 Use of generative AI
